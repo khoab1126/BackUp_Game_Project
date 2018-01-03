@@ -13,7 +13,7 @@ body {
 }
 
 #startSection {
-  background-image: url("images/section1_background,jpec");
+  background-image: url("../images/section1_background,jpeg");
 }
 section {
   width: 100%;
@@ -73,4 +73,47 @@ footer {
     font-weight: 500;
     text-decoration: none;
   }
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.centerBoxes {
+	text-align: center;
+}
+#textBox {
+	height: 25px;
+	width: 600px;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#postButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.inputTable {
+	text-align: center;	
 }
